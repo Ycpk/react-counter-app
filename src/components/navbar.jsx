@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 //Stateless Functional Component
-const Navbar = totalCounters => {
+const Navbar = ({ totalCounters }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
